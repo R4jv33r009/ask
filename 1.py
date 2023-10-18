@@ -91,7 +91,7 @@ def main_apv():
     r1=requests.get("https://github.com/R4jv33r009/Multi1/blob/main/Approval.txt").text
     if key1 in r1:
     	#R ke jaga apne main jahan sy script started krna chahty wo lagao 
-          Main()
+          liness()
     else:
         os.system("clear")
         print(logo)
